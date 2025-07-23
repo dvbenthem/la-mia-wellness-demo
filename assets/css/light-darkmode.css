@@ -1,0 +1,30 @@
+@media (prefers-color-scheme: dark){
+  body{
+    background-color: rgb(39, 39, 39);
+  }
+  img{
+    filter: brightness(.8) contrast(1.2);
+  }
+  header{
+    background-color: rgb(20, 20, 20);
+  }
+  .mobile-menu span{
+    background-color: #fef;
+  }
+  .menu{
+    background-color: rgb(20, 20, 20);
+  }
+  .menu .active li a:link{
+    color: #fef;
+  }
+  
+}
+
+
+
+@media (prefers-color-scheme: light){
+  body{
+    background-color: #fcfcfc;
+  }
+  
+}
